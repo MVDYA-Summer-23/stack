@@ -1,0 +1,3 @@
+%{
+  "rename_project": {:hex, :rename_project, "0.1.0", "383ab9937e1eb381727b0cf5a45c295528e74987532ff1db2472bf9a00461a01", [:mix], [], "hexpm", "d65e3aa55628483cfcf5116572781cad5ac0c2300977b5ddfeff8183d9016e10"},
+}

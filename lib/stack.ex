@@ -1,4 +1,4 @@
-defmodule TestingStack do
+defmodule Stack do
   use GenServer
 
   def start_link(init_state, _opts \\ []) do
