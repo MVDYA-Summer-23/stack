@@ -4,7 +4,7 @@ defmodule StackTest do
 
   test "start_link/1 default state is empty list" do
     {:ok, pid} = Stack.start_link([])
-    assert :sys.get_state(pid) == []
+    assert Stack.pop(pid) == []
   end
 
   test "start_link/2 configured state is a list of 3 paper plates" do
